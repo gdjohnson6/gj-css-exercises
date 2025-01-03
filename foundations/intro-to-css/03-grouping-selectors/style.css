@@ -1,0 +1,13 @@
+.cta {
+    font-size: 28px;
+    font-family: Helvetica, 'Times New Roman', sans-serif;
+}
+
+.black {
+    background-color: #000;
+    color: #fff;
+}
+
+.yellow {
+    background-color: rgb(214, 245, 37);
+}
