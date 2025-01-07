@@ -12,7 +12,6 @@ body {
 
 .title {
   background: #e3f4ff;
-  display: block;
   margin: 10px 0px;
   padding: 8px;
   font-size: 1.5em;
@@ -20,7 +19,6 @@ body {
 
 .content {
   background: #e3f4ff;
-  display: block;
   margin: 10px 0px;
   padding: 20px 8px;
   font-size: 1.15em;
@@ -28,7 +26,6 @@ body {
 
 .button-container {
   background: #e3f4ff;
-  display: block;
   text-align: center;
   padding: 15px 0px 10px 0px;
 }
