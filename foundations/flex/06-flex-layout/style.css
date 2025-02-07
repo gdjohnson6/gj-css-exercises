@@ -7,8 +7,25 @@ body {
   font-family: Roboto, sans-serif;
 }
 
+.header, .body, .footer {
+  display: flex;
+}
+
 img {
   width: 600px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+  font-family: Roboto, sans-serif;
+  font-size: 1.3em;
+  color: dimgray;
 }
 
 button {
