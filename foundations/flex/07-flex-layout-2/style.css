@@ -1,3 +1,8 @@
+ul {
+  padding: 0;
+  margin: 0;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
   margin: 0;
@@ -30,10 +35,39 @@ body {
   align-items: center;
 }
 
+/* new */
+.content, .sidebar, .cards {
+  display: flex;
+  justify-content: start;
+  align-items: stretch;
+}
+
+.cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 350px;
+}
+
+
 .sidebar {
   width: 300px;
+  flex-shrink: 0;
   background: royalblue;
   box-sizing: border-box;
+  padding: 16px;
+}
+
+.sidebar ul {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  list-style-type: none ;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 1.3em;
 }
 
 .card {
