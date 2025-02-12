@@ -38,16 +38,26 @@ body {
 /* new */
 .content, .sidebar, .cards {
   display: flex;
-  justify-content: start;
+  flex-grow: 1;
   align-items: stretch;
+  justify-content: start;
 }
 
 .cards {
   display: flex;
+  gap: 30px;
   flex-wrap: wrap;
-  max-width: 350px;
+  padding: 50px;
 }
 
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+  padding: 20px;
+  max-width: 250px;
+  min-height: 275px;
+}
 
 .sidebar {
   width: 300px;
@@ -68,10 +78,4 @@ body {
   text-decoration: none;
   color: #fff;
   font-size: 1.3em;
-}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
 }
